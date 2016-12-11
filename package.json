@@ -1,0 +1,20 @@
+{
+  "name": "canvas-upload",
+  "version": "1.0.0",
+  "description": "Draw a canvas drawing a save it on server",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "canvas"
+  ],
+  "author": "Akhil",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
