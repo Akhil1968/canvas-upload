@@ -57,6 +57,9 @@ function uploadPic(canvas, imgName) {
         success: function (msg) {
             console.log(msg);
             document.getElementById('message').innerHTML = msg;
+        },
+        error: function () {
+            console.log("ERROR");
         }
     });
 
