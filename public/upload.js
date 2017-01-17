@@ -17,7 +17,7 @@ function init(){
     var ctx = canvas.getContext("2d");
     ctx.font = "40px Cambria";
     ctx.strokeStyle = "green";
-    ctx.strokeText("Got Print", 100, 40);
+    ctx.strokeText("Raw Canvas", 100, 40);
 }
 init();
 
